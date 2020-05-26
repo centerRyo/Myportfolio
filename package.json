@@ -1,0 +1,12 @@
+{
+  "name": "Myportfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:centerRyo/Myportfolio.git",
+  "author": "centerRyo <abc.atrn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4"
+  }
+}
