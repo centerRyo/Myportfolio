@@ -6,7 +6,7 @@
   "author": "centerRyo <abc.atrn@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build-css": "node-sass --include-path css scss/style.scss css/style.css",
+    "build-css": "node-sass --include-path css scss/app.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "dependencies": {
