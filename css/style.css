@@ -6,7 +6,6 @@ html, body {
 
 #header {
   width: 100%;
-  box-sizing: border-box;
   position: fixed; }
 
 .p-header {
@@ -15,6 +14,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-sizing: border-box;
   padding-left: 20px;
   padding-right: 20px; }
   .p-header_title {
