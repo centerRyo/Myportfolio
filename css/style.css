@@ -1,6 +1,38 @@
-@charset "UTF-8";
 html, body {
   width: 100%;
   line-height: 1.6;
   letter-spacing: 0.1em;
-  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; }
+  font-family: "Roboto", sans-serif; }
+
+#header {
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed; }
+
+.p-header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px; }
+  .p-header_title {
+    font-size: 38px;
+    font-family: 'Pacifico', cursive; }
+
+.c-menus {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold; }
+
+.c-menu {
+  margin-right: 40px; }
+  .c-menu_link {
+    -webkit-font-smoothing: initial;
+    transition: all .4s; }
+  .c-menu_link:hover {
+    transition: all .4s;
+    color: #1ee3cf;
+    text-decoration: underline; }

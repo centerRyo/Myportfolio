@@ -1,6 +1,10 @@
 // =================================
 // 変数
 // =================================
+$font-color_main: #f2f4f6;
+$font-color_sub1: #1ee3cf;
+$font-color_sub2: #0d3f67;
+
 $font-size_s: 12px;
 $font-size_m: 14px;
 $font-size_default: 16px;
@@ -16,9 +20,14 @@ $space_xl: 20px;
 $space_xxl: 30px;
 $space_3l: 40px;
 
-$font-family_default: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+$font-family_default: 'Roboto', sans-serif;
 
 // =================================
 // Foundation
 // =================================
 @import 'foundation/base';
+
+// =================================
+// layout
+// =================================
+@import 'layout/header';

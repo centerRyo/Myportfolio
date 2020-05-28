@@ -1,0 +1,40 @@
+#header {
+  width: 100%;
+  box-sizing: border-box;
+  position: fixed;
+}
+
+.p-header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: $space_xl;
+  padding-right: $space_xl;
+  &_title {
+    font-size: $font-size_3l;
+    font-family: 'Pacifico', cursive;
+  }
+}
+
+.c-menus {
+  display: flex;
+  align-items: center;
+  font-size: $font-size_l;
+  font-weight: bold;
+}
+
+.c-menu {
+  margin-right: $space_3l;
+  &_link {
+    -webkit-font-smoothing: initial;
+    transition: all .4s;
+  }
+  &_link:hover {
+    transition: all .4s;
+    color: $font-color_sub1;
+    text-decoration: underline;
+  }
+}
+
