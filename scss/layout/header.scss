@@ -28,12 +28,12 @@
 .c-menu {
   margin-right: $space_3l;
   &_link {
+    transition: .3s;
     -webkit-font-smoothing: initial;
-    transition: all .4s;
   }
   &_link:hover {
-    transition: all .4s;
     color: $font-color_sub1;
+    transition: .3s;
     text-decoration: underline;
   }
 }

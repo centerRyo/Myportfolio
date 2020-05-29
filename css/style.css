@@ -30,9 +30,9 @@ html, body {
 .c-menu {
   margin-right: 40px; }
   .c-menu_link {
-    -webkit-font-smoothing: initial;
-    transition: all .4s; }
+    transition: .3s;
+    -webkit-font-smoothing: initial; }
   .c-menu_link:hover {
-    transition: all .4s;
     color: #1ee3cf;
+    transition: .3s;
     text-decoration: underline; }
