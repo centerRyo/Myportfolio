@@ -13,6 +13,7 @@
   padding-left: $space_xl;
   padding-right: $space_xl;
   &_title {
+    color: $font-color_main;
     font-size: $font-size_3l;
     font-family: 'Pacifico', cursive;
   }
@@ -23,6 +24,7 @@
   align-items: center;
   font-size: $font-size_l;
   font-weight: bold;
+  color: $font-color_main;
 }
 
 .c-menu {
