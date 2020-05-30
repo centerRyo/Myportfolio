@@ -1,9 +1,9 @@
 .p-hero {
   background-image: url('../images/hero1.jpg');
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 700px;
   display: flex;
   align-items: center;
@@ -13,6 +13,7 @@
     color: $font-color_main;
     font-size: $font-size_3l;
     font-weight: bold;
+    text-shadow: 0 0 20px rgba(227, 123, 168, 0.81), 0 0 50px rgba(0, 0, 0, .8);
   }
   &_comment {
     color: #fff;
