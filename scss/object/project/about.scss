@@ -1,0 +1,27 @@
+.p-about {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 50px 0 50px;
+  &__img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: $space_xxl;
+    transition: all .4s;
+  }
+  &__img:hover {
+    transition: all .4s;
+    transform: scale(1.2) rotate(15deg);
+  }
+  &__introduce {
+    margin-bottom: $space_xxl;
+  }
+}
+
+.fab {
+  font-size: $font-size_xxl;
+  color: $font-color_sub2;
+}
