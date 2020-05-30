@@ -52,6 +52,16 @@ html, body {
     font-weight: bold;
     text-align: center; }
 
+.l-footer {
+  width: 100%;
+  background: #0d3f67;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px; }
+
 .c-bar {
   width: 100%;
   background: #f2f4f6;
