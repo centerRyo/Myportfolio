@@ -1,0 +1,22 @@
+.p-hero {
+  background-image: url('../images/hero1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  &_title {
+    color: $font-color_main;
+    font-size: $font-size_3l;
+    font-weight: bold;
+  }
+  &_comment {
+    color: #fff;
+    margin-top: $space_xl;
+    float: right;
+  }
+}
