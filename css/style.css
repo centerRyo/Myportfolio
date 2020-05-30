@@ -32,11 +32,13 @@ html, body {
 .c-menu {
   margin-right: 40px; }
   .c-menu_link {
-    transition: .3s;
+    display: inline-block;
+    transition: all .3s;
     -webkit-font-smoothing: initial; }
   .c-menu_link:hover {
+    transform: scale(1.5);
     color: #1ee3cf;
-    transition: .3s;
+    transition: all .3s;
     text-decoration: underline; }
 
 .p-hero {
