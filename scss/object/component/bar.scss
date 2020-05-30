@@ -1,0 +1,16 @@
+.c-bar {
+  width: 100%;
+  background: $color_main;
+  height: 32px;
+  margin-bottom: $space_xl;
+  color: #fff;
+  font-size: $font-size_l;
+  &__fill {
+    background: #00a1a7;
+  }
+  &__tag {
+    background: $color_sub1;
+    width: 110px;
+    text-align: center;
+  }
+}

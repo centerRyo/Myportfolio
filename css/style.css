@@ -52,6 +52,20 @@ html, body {
     font-weight: bold;
     text-align: center; }
 
+.c-bar {
+  width: 100%;
+  background: #f2f4f6;
+  height: 32px;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 18px; }
+  .c-bar__fill {
+    background: #00a1a7; }
+  .c-bar__tag {
+    background: #1ee3cf;
+    width: 110px;
+    text-align: center; }
+
 .p-hero {
   background-image: url("../images/hero1.jpg");
   background-attachment: fixed;
@@ -74,7 +88,7 @@ html, body {
     float: right; }
 
 .p-about {
-  width: 50%;
+  width: 55%;
   box-sizing: border-box;
   padding: 0 50px 0 50px; }
   .p-about__img {
@@ -97,7 +111,7 @@ html, body {
   color: #0d3f67; }
 
 .p-skill {
-  width: 50%;
+  width: 45%;
   box-sizing: border-box; }
 
 .u-underline {
@@ -110,5 +124,4 @@ html, body {
 
 .u-flex {
   display: flex;
-  align-items: center;
   justify-content: space-around; }
