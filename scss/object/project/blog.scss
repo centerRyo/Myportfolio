@@ -1,0 +1,35 @@
+.p-blog-group {
+  margin-right: -$space_xl;
+}
+
+.p-blog {
+  display: inline-block;
+  margin-right: $space_xl;
+  width: calc(33% - #{$space_xl});
+  &__hover {
+    transition: .4s;
+  }
+  &__hover:hover {
+    transition: .4s;
+    opacity: 0.4;
+  }
+  img {
+    width: 100%;
+    height: 180px;
+  }
+  &__title {
+    font-size: $font-size_l;
+    font-weight: bold;
+    margin: $space_l 0 $space_m;
+  }
+  &__date {
+    display: inline-block;
+    font-size: $font-size_s;
+    padding-bottom: $space_l;
+    margin-bottom: $space_m;
+    border-bottom: 3px solid $color_sub1;
+  }
+  &__content {
+    font-size: $font-size_m;
+  }
+}

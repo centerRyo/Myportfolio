@@ -128,14 +128,46 @@ html, body {
   width: 45%;
   box-sizing: border-box; }
 
+.p-blog-group {
+  margin-right: -20px; }
+
+.p-blog {
+  display: inline-block;
+  margin-right: 20px;
+  width: calc(33% - 20px); }
+  .p-blog__hover {
+    transition: .4s; }
+  .p-blog__hover:hover {
+    transition: .4s;
+    opacity: 0.4; }
+  .p-blog img {
+    width: 100%;
+    height: 180px; }
+  .p-blog__title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0 10px; }
+  .p-blog__date {
+    display: inline-block;
+    font-size: 12px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #1ee3cf; }
+  .p-blog__content {
+    font-size: 14px; }
+
 .u-underline {
   width: 70px;
   height: 4px;
   background: #0d3f67;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   margin-right: auto;
   margin-left: auto; }
 
 .u-flex {
   display: flex;
   justify-content: space-around; }
+
+.u-bgColor {
+  width: 100%;
+  background: #f2f4f6; }

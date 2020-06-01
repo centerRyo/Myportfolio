@@ -51,9 +51,11 @@ $site-width: 980px;
 @import 'object/project/hero';
 @import 'object/project/about';
 @import 'object/project/skill';
+@import 'object/project/blog';
 
 // ---------------------------------
 // utility
 // ---------------------------------
 @import 'object/utility/underline';
 @import 'object/utility/flex';
+@import 'object/utility/bgColor';
