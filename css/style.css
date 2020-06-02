@@ -80,6 +80,15 @@ html, body {
     align-items: center;
     justify-content: center; }
 
+.c-btn {
+  border: 2px solid #1ee3cf;
+  padding: 5px 15px;
+  border-radius: 3px;
+  transition: all .5s; }
+  .c-btn:hover {
+    background: #1ee3cf;
+    color: #fff; }
+
 .p-hero {
   background-image: url("../images/hero1.jpg");
   background-attachment: fixed;
@@ -156,6 +165,44 @@ html, body {
   .p-blog__content {
     font-size: 14px; }
 
+.p-works {
+  position: relative;
+  width: 33%;
+  overflow: hidden;
+  font-weight: bold;
+  text-align: center; }
+  .p-works img {
+    width: 100%;
+    height: 250px; }
+  .p-works__cover1, .p-works__cover2 {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    background: rgba(255, 255, 255, 0.85);
+    transition: all .4s ease; }
+  .p-works__cover1 {
+    padding: 20px 40px;
+    top: -50%; }
+  .p-works:hover .p-works__cover1 {
+    top: 0; }
+  .p-works__cover2 {
+    padding: 15px 40px 30px;
+    bottom: -50%; }
+  .p-works:hover .p-works__cover2 {
+    bottom: 0; }
+  .p-works__title {
+    margin-bottom: 10px;
+    font-size: 24px; }
+  .p-works__lang {
+    display: inline-block;
+    font-size: 14px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #0d3f67; }
+  .p-works__explain {
+    font-size: 12px;
+    margin-bottom: 10px; }
+
 .u-underline {
   width: 70px;
   height: 4px;
@@ -167,6 +214,10 @@ html, body {
 .u-flex {
   display: flex;
   justify-content: space-around; }
+
+.u-flex--wrap {
+  display: flex;
+  flex-wrap: wrap; }
 
 .u-bgColor {
   width: 100%;

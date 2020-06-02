@@ -1,0 +1,10 @@
+.c-btn {
+  border: 2px solid $color_sub1;
+  padding: $space_s $space_l;
+  border-radius: 3px;
+  transition: all .5s;
+  &:hover {
+    background: $color_sub1;
+    color: #fff;
+  }
+}
