@@ -21,7 +21,7 @@ html, body {
   .p-header.p-header--float {
     transition: .4s;
     background: #0d3f67;
-    border-bottom: 2px solid #1ee3cf; }
+    border-bottom: 4px solid #1ee3cf; }
   .p-header_title {
     color: #f2f4f6;
     font-size: 30px;
