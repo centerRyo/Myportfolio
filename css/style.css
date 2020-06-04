@@ -96,6 +96,40 @@ html, body {
   .c-btn:hover {
     background: #1ee3cf;
     color: #fff; }
+  .c-btn__submit {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 15px;
+    color: #fff;
+    background: #333;
+    border-radius: 5px;
+    float: right;
+    position: relative;
+    right: 27px;
+    margin-top: 20px;
+    width: 120px; }
+
+.c-required {
+  margin-left: 5px;
+  color: #fff;
+  font-size: 12px;
+  background: #ff5454;
+  border-radius: 2px;
+  padding: 5px;
+  box-sizing: border-box;
+  position: relative;
+  top: -2px; }
+
+.c-option {
+  margin-left: 5px;
+  color: #fff;
+  font-size: 12px;
+  background: #3d8ee4;
+  border-radius: 2px;
+  padding: 5px;
+  box-sizing: border-box;
+  position: relative;
+  top: -2px; }
 
 .p-hero {
   background-image: url("../images/hero1.jpg");
@@ -213,6 +247,49 @@ html, body {
     font-size: 12px;
     margin-bottom: 10px; }
 
+.p-contact {
+  width: 60%;
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  background: #f2f4f6;
+  padding: 20px;
+  border-radius: 3px;
+  vertical-align: middle;
+  overflow: hidden; }
+  .p-contact__list {
+    padding: 15px 20px; }
+    .p-contact__list label {
+      float: left;
+      display: block;
+      width: 38%;
+      text-align: right;
+      padding-right: 15px;
+      line-height: 30px;
+      position: relative;
+      top: 2px;
+      box-sizing: border-box; }
+    .p-contact__list input {
+      display: inline-block;
+      width: 60%;
+      height: 30px;
+      background: #fff;
+      box-sizing: border-box;
+      padding: 5px 10px;
+      font-size: 14px;
+      color: #333;
+      border-radius: 4px; }
+    .p-contact__list textarea {
+      display: inline-block;
+      width: 60%;
+      height: 200px;
+      background: #fff;
+      padding: 5px 10px;
+      box-sizing: border-box;
+      font-size: 14px;
+      color: #333;
+      border-radius: 4px; }
+
 .u-underline {
   width: 70px;
   height: 4px;
@@ -232,3 +309,11 @@ html, body {
 .u-bgColor {
   width: 100%;
   background: #f2f4f6; }
+
+.u-bgColor--blue {
+  background: #244a67; }
+
+.u-white {
+  color: #fff; }
+  .u-white__bg {
+    background: #fff; }

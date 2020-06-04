@@ -1,0 +1,47 @@
+.p-contact {
+  width: 60%;
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  background: $color_main;
+  padding: $space_xl;
+  border-radius: 3px;
+  vertical-align: middle;
+  overflow: hidden;
+  &__list {
+    padding: $space_l $space_xl;
+    label {
+      float: left;
+      display: block;
+      width: 38%;
+      text-align: right;
+      padding-right: $space_l;
+      line-height: 30px;
+      position: relative;
+      top: 2px;
+      box-sizing: border-box;
+    }
+    input {
+      display: inline-block;
+      width: 60%;
+      height: 30px;
+      background: #fff;
+      box-sizing: border-box;
+      padding: $space_s $space_m;
+      font-size: $font-size_m;
+      color: #333;
+      border-radius: 4px;
+    }
+    textarea {
+      display: inline-block;
+      width: 60%;
+      height: 200px;
+      background: #fff;
+      padding: $space_s $space_m;
+      box-sizing: border-box;
+      font-size: $font-size_m;
+      color: #333;
+      border-radius: 4px;
+    }
+  }
+}

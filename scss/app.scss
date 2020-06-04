@@ -45,6 +45,7 @@ $site-width: 980px;
 // ---------------------------------
 @import 'object/component/bar';
 @import 'object/component/btn';
+@import 'object/component/label';
 
 // ---------------------------------
 // project
@@ -54,6 +55,7 @@ $site-width: 980px;
 @import 'object/project/skill';
 @import 'object/project/blog';
 @import 'object/project/works';
+@import 'object/project/contact';
 
 // ---------------------------------
 // utility
@@ -61,3 +63,4 @@ $site-width: 980px;
 @import 'object/utility/underline';
 @import 'object/utility/flex';
 @import 'object/utility/bgColor';
+@import 'object/utility/color';

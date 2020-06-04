@@ -10,4 +10,17 @@
     background: $color_sub1;
     color: #fff;
   }
+  &__submit {
+    text-align: center;
+    font-size: $font-size_l;
+    padding: $space_m $space_l;
+    color: #fff;
+    background: #333;
+    border-radius: 5px;
+    float: right;
+    position: relative;
+    right: 27px;
+    margin-top: $space_xl;
+    width: 120px;
+  }
 }
