@@ -4,6 +4,9 @@
   margin-right: auto;
   padding-top: 80px;
   padding-bottom: 120px;
+  @include mq() {
+    width: 100%;
+  }
   &__title {
     font-size: $font-size_3l;
     font-weight: bold;

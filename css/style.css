@@ -52,6 +52,9 @@ html, body {
   margin-right: auto;
   padding-top: 80px;
   padding-bottom: 120px; }
+  @media screen and (max-width: 414px) {
+    .l-main {
+      width: 100%; } }
   .l-main__title {
     font-size: 38px;
     font-weight: bold;
@@ -148,6 +151,9 @@ html, body {
     font-size: 38px;
     font-weight: bold;
     text-shadow: 0 0 20px rgba(227, 123, 168, 0.81), 0 0 50px rgba(0, 0, 0, 0.8); }
+    @media screen and (max-width: 414px) {
+      .p-hero_title {
+        text-align: center; } }
   .p-hero_comment {
     color: #fff;
     margin-top: 20px;
@@ -299,13 +305,19 @@ html, body {
   margin-right: auto;
   margin-left: auto; }
 
-.u-flex {
+.u-arrangement {
   display: flex;
   justify-content: space-around; }
+  @media screen and (max-width: 414px) {
+    .u-arrangement {
+      display: block; } }
 
-.u-flex--wrap {
+.u-arrangement--wrap {
   display: flex;
   flex-wrap: wrap; }
+  @media screen and (max-width: 414px) {
+    .u-arrangement--wrap {
+      display: block; } }
 
 .u-bgColor {
   width: 100%;
