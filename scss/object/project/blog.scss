@@ -9,6 +9,11 @@
   display: inline-block;
   margin-right: $space_xl;
   width: calc(33% - #{$space_xl});
+  @include mq() {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: $space_xxl;
+  }
   &__hover {
     transition: .4s;
   }

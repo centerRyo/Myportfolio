@@ -238,6 +238,11 @@ html, body {
   display: inline-block;
   margin-right: 20px;
   width: calc(33% - 20px); }
+  @media screen and (max-width: 414px) {
+    .p-blog {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 30px; } }
   .p-blog__hover {
     transition: .4s; }
   .p-blog__hover:hover {
