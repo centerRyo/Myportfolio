@@ -182,7 +182,8 @@ html, body {
   padding: 0 50px 0 50px; }
   @media screen and (max-width: 414px) {
     .p-about {
-      width: 100%; } }
+      width: 100%;
+      margin-bottom: 80px; } }
   .p-about__img {
     display: block;
     width: 250px;
