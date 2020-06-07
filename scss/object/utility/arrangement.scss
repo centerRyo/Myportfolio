@@ -13,7 +13,4 @@
 .u-arrangement--wrap {
   display: flex;
   flex-wrap: wrap;
-  @include mq() {
-    display: block;
-  }
 }
