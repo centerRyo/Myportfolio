@@ -4,6 +4,10 @@
   @include mq() {
     display: block;
   }
+  &__sns {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 .u-arrangement--wrap {
