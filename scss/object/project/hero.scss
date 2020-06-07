@@ -16,11 +16,15 @@
     text-shadow: 0 0 20px rgba(227, 123, 168, 0.81), 0 0 50px rgba(0, 0, 0, .8);
     @include mq() {
       text-align: center;
+      padding: 0 $space_m;
     }
   }
   &_comment {
     color: #fff;
     margin-top: $space_xl;
     float: right;
+    @include mq() {
+      margin-right: $space_3l;
+    }
   }
 }
