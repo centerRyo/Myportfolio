@@ -6,6 +6,8 @@
   padding-bottom: 120px;
   @include mq() {
     width: 100%;
+    padding-right: $space_l;
+    padding-left: $space_l;
   }
   &__title {
     font-size: $font-size_3l;
