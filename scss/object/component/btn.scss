@@ -1,6 +1,7 @@
 .c-btn {
   display: inline-block;
-  font-size: $font-size_m;
+  font-size: $font-size_default;
+  font-weight: lighter;
   width: 170px;
   border: 2px solid $color_sub1;
   padding: $space_s 0;

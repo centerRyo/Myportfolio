@@ -87,7 +87,8 @@ html, body {
 
 .c-btn {
   display: inline-block;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: lighter;
   width: 170px;
   border: 2px solid #1ee3cf;
   padding: 5px 0;
