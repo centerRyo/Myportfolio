@@ -1,5 +1,8 @@
 .p-blog-group {
   margin-right: -$space_xl;
+  @include mq() {
+    margin-right: 0;
+  }
 }
 
 .p-blog {
