@@ -1,0 +1,15 @@
+.u-arrangement {
+  display: flex;
+  justify-content: space-around;
+  @include mq() {
+    display: block;
+  }
+}
+
+.u-arrangement--wrap {
+  display: flex;
+  flex-wrap: wrap;
+  @include mq() {
+    display: block;
+  }
+}
