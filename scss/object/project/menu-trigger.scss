@@ -1,0 +1,6 @@
+.p-menu-trigger {
+  display: none;
+  @include mq($breakpoint: md) {
+    display: inline-block;
+  }
+}
