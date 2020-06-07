@@ -26,6 +26,9 @@ html, body {
     color: #f2f4f6;
     font-size: 30px;
     font-family: 'Pacifico', cursive; }
+    @media screen and (max-width: 414px) {
+      .p-header_title {
+        font-size: 24px; } }
 
 .c-menus {
   display: flex;
@@ -33,9 +36,19 @@ html, body {
   font-size: 18px;
   font-weight: bold;
   color: #f2f4f6; }
+  @media screen and (max-width: 414px) {
+    .c-menus {
+      display: block;
+      font-size: 30px;
+      color: #000;
+      text-align: center; } }
 
 .c-menu {
   margin-right: 40px; }
+  @media screen and (max-width: 414px) {
+    .c-menu {
+      margin-bottom: 40px;
+      margin-right: 0; } }
   .c-menu_link {
     display: inline-block;
     transition: all .3s;
@@ -188,6 +201,9 @@ html, body {
 
 .p-blog-group {
   margin-right: -20px; }
+  @media screen and (max-width: 414px) {
+    .p-blog-group {
+      margin-right: 0; } }
 
 .p-blog {
   display: inline-block;
@@ -296,6 +312,59 @@ html, body {
       font-size: 14px;
       color: #333;
       border-radius: 4px; }
+
+@media screen and (max-width: 414px) {
+  .p-nav-menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    background: white;
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+    transition: .5s; }
+    .p-nav-menu.active {
+      transition: .5s;
+      transform: translateX(-100%);
+      z-index: 2; } }
+
+.p-menu-trigger {
+  display: none;
+  transition: all .4s;
+  position: relative;
+  width: 35px;
+  height: 25px;
+  z-index: 3;
+  box-sizing: border-box; }
+  @media screen and (max-width: 768px) {
+    .p-menu-trigger {
+      display: inline-block; } }
+  .p-menu-trigger span {
+    width: 100%;
+    display: inline-block;
+    transition: all .4s;
+    box-sizing: border-box;
+    height: 3px;
+    background: #f2f4f6;
+    position: absolute;
+    left: 0;
+    border-radius: 4px; }
+    .p-menu-trigger span:nth-of-type(1) {
+      top: 0; }
+    .p-menu-trigger span:nth-of-type(2) {
+      top: 11px; }
+    .p-menu-trigger span:nth-of-type(3) {
+      bottom: 0; }
+  .p-menu-trigger.active span {
+    transition: all .4s;
+    background: #000; }
+    .p-menu-trigger.active span:nth-of-type(1) {
+      transform: translateY(10px) rotate(45deg); }
+    .p-menu-trigger.active span:nth-of-type(2) {
+      opacity: 0; }
+    .p-menu-trigger.active span:nth-of-type(3) {
+      transform: translateY(-12px) rotate(-45deg); }
 
 .u-underline {
   width: 70px;
