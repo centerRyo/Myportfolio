@@ -1,7 +1,7 @@
 .p-skill {
   width: 45%;
   box-sizing: border-box;
-  @include mq() {
+  @include mq($breakpoint: md) {
     width: 100%;
     padding-left: $space_xl;
     padding-right: $space_xl;

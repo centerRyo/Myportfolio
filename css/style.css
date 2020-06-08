@@ -214,7 +214,7 @@ html, body {
   width: 55%;
   box-sizing: border-box;
   padding: 0 50px 0 50px; }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 768px) {
     .p-about {
       width: 100%;
       margin-bottom: 80px;
@@ -246,7 +246,7 @@ html, body {
 .p-skill {
   width: 45%;
   box-sizing: border-box; }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 768px) {
     .p-skill {
       width: 100%;
       padding-left: 20px;
@@ -464,7 +464,7 @@ html, body {
 .u-arrangement {
   display: flex;
   justify-content: space-around; }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 768px) {
     .u-arrangement {
       display: block; } }
   .u-arrangement__sns {
