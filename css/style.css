@@ -233,7 +233,7 @@ html, body {
     transform: scale(1.2) rotate(15deg); }
   .p-about__introduce {
     margin-bottom: 30px; }
-    @media screen and (max-width: 414px) {
+    @media screen and (max-width: 768px) {
       .p-about__introduce {
         text-align: center;
         font-size: 14px;
@@ -470,6 +470,11 @@ html, body {
   .u-arrangement__sns {
     display: flex;
     justify-content: space-around; }
+    @media screen and (max-width: 768px) {
+      .u-arrangement__sns {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto; } }
 
 .u-arrangement--wrap {
   display: flex;
