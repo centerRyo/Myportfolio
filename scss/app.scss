@@ -25,6 +25,7 @@ $font-family_default: 'Roboto', sans-serif;
 $site-width: 980px;
 
 $breakpoints: (
+  'ss': 'screen and (max-width: 320px)',
   'sm': 'screen and (max-width: 414px)',
   'md': 'screen and (max-width: 768px)',
   'lg': 'screen and (max-width: 1000px)',
