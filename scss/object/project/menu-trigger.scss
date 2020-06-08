@@ -1,6 +1,6 @@
 .p-menu-trigger {
   display: none;
-  @include mq($breakpoint: md) {
+  @include mq() {
     display: inline-block;
   }
   transition: all .4s;

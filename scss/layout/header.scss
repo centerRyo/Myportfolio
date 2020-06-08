@@ -40,6 +40,9 @@
     color: #000;
     text-align: center;
   }
+  @include mq($breakpoint: md) {
+    font-size: $font-size_m;
+  }
 }
 
 .c-menu {

@@ -42,6 +42,9 @@ html, body {
       font-size: 30px;
       color: #000;
       text-align: center; } }
+  @media screen and (max-width: 768px) {
+    .c-menus {
+      font-size: 14px; } }
 
 .c-menu {
   margin-right: 40px; }
@@ -65,7 +68,7 @@ html, body {
   margin-right: auto;
   padding-top: 80px;
   padding-bottom: 120px; }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 768px) {
     .l-main {
       width: 100%;
       padding-right: 15px;
@@ -397,7 +400,7 @@ html, body {
         .p-contact__list textarea {
           font-size: 12px; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 414px) {
   .p-nav-menu {
     display: block;
     position: absolute;
@@ -421,7 +424,7 @@ html, body {
   height: 25px;
   z-index: 3;
   box-sizing: border-box; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 414px) {
     .p-menu-trigger {
       display: inline-block; } }
   .p-menu-trigger span {

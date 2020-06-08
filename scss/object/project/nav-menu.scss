@@ -1,5 +1,5 @@
 .p-nav-menu {
-  @include mq($breakpoint: md) {
+  @include mq() {
     display: block;
     position: absolute;
     top: 0;
