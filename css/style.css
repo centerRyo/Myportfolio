@@ -295,6 +295,9 @@ html, body {
   font-weight: bold;
   text-align: center;
   z-index: 1; }
+  @media screen and (max-width: 768px) {
+    .p-works {
+      width: 50%; } }
   @media screen and (max-width: 414px) {
     .p-works {
       width: 100%; } }
