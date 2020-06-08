@@ -204,7 +204,8 @@ html, body {
   @media screen and (max-width: 414px) {
     .p-about {
       width: 100%;
-      margin-bottom: 80px; } }
+      margin-bottom: 80px;
+      padding: 0 20px 0; } }
   .p-about__img {
     display: block;
     width: 250px;
@@ -222,6 +223,7 @@ html, body {
     @media screen and (max-width: 414px) {
       .p-about__introduce {
         text-align: center;
+        font-size: 14px;
         line-height: 2.4; } }
 
 .fab {

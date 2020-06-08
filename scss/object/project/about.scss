@@ -5,6 +5,7 @@
   @include mq() {
     width: 100%;
     margin-bottom: 80px;
+    padding: 0 $space_xl 0;
   }
   &__img {
     display: block;
@@ -24,6 +25,7 @@
     margin-bottom: $space_xxl;
     @include mq() {
       text-align: center;
+      font-size: $font-size_m;
       line-height: 2.4;
     }
   }
