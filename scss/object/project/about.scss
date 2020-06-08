@@ -23,7 +23,7 @@
   }
   &__introduce {
     margin-bottom: $space_xxl;
-    @include mq() {
+    @include mq($breakpoint: md) {
       text-align: center;
       font-size: $font-size_m;
       line-height: 2.4;
