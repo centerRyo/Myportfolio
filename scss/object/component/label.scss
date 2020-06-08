@@ -8,6 +8,11 @@
   box-sizing: border-box;
   position: relative;
   top: -2px;
+  @include mq($breakpoint: ss) {
+    font-size: 6px;
+    padding: 3px;
+    margin-left: $space_s;
+  }
 }
 
 .c-option {
@@ -20,4 +25,9 @@
   box-sizing: border-box;
   position: relative;
   top: -2px;
+  @include mq($breakpoint: ss) {
+    font-size: 3px;
+    padding: 3px;
+    margin-left: $space_s;
+  }
 }

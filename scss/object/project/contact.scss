@@ -30,6 +30,10 @@
       @include mq() {
         font-size: $font-size_s;
       }
+      @include mq($breakpoint: ss) {
+        font-size: $font-size_s;
+        padding-right: $space_s;
+      }
     }
     input {
       display: inline-block;
@@ -41,6 +45,9 @@
       font-size: $font-size_m;
       color: #333;
       border-radius: 4px;
+      @include mq($breakpoint: ss) {
+        font-size: $font-size_s;
+      }
     }
     textarea {
       display: inline-block;
@@ -52,6 +59,9 @@
       font-size: $font-size_m;
       color: #333;
       border-radius: 4px;
+      @include mq($breakpoint: ss) {
+        font-size: $font-size_s;
+      }
     }
   }
 }
