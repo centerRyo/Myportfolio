@@ -355,6 +355,9 @@ html, body {
   border-radius: 3px;
   vertical-align: middle;
   overflow: hidden; }
+  @media screen and (max-width: 768px) {
+    .p-contact {
+      width: 80%; } }
   @media screen and (max-width: 414px) {
     .p-contact {
       width: 100%; } }
