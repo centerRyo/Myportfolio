@@ -254,7 +254,7 @@ html, body {
 
 .p-blog-group {
   margin-right: -20px; }
-  @media screen and (max-width: 414px) {
+  @media screen and (max-width: 768px) {
     .p-blog-group {
       margin-right: 0; } }
 
@@ -262,6 +262,11 @@ html, body {
   display: inline-block;
   margin-right: 20px;
   width: calc(33% - 20px); }
+  @media screen and (max-width: 768px) {
+    .p-blog {
+      display: block;
+      width: 55%;
+      margin: 0 auto 30px; } }
   @media screen and (max-width: 414px) {
     .p-blog {
       width: 100%;

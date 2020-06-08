@@ -1,6 +1,6 @@
 .p-blog-group {
   margin-right: -$space_xl;
-  @include mq() {
+  @include mq($breakpoint: md) {
     margin-right: 0;
   }
 }
@@ -9,6 +9,11 @@
   display: inline-block;
   margin-right: $space_xl;
   width: calc(33% - #{$space_xl});
+  @include mq($breakpoint: md) {
+    display: block;
+    width: 55%;
+    margin: 0 auto $space_xxl;
+  }
   @include mq() {
     width: 100%;
     margin-right: 0;
