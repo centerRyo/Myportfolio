@@ -8,8 +8,15 @@
   border-radius: 3px;
   vertical-align: middle;
   overflow: hidden;
+  @include mq() {
+    width: 100%;
+  }
   &__list {
     padding: $space_l $space_xl;
+    @include mq() {
+      padding: 0;
+      margin-bottom: $space_m;
+    }
     label {
       float: left;
       display: block;
@@ -20,6 +27,9 @@
       position: relative;
       top: 2px;
       box-sizing: border-box;
+      @include mq() {
+        font-size: $font-size_s;
+      }
     }
     input {
       display: inline-block;

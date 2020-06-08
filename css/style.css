@@ -137,6 +137,11 @@ html, body {
     right: 27px;
     margin-top: 20px;
     width: 120px; }
+    @media screen and (max-width: 414px) {
+      .c-btn__submit {
+        right: 0;
+        font-size: 14px;
+        width: 100px; } }
 
 .c-required {
   margin-left: 5px;
@@ -323,8 +328,15 @@ html, body {
   border-radius: 3px;
   vertical-align: middle;
   overflow: hidden; }
+  @media screen and (max-width: 414px) {
+    .p-contact {
+      width: 100%; } }
   .p-contact__list {
     padding: 15px 20px; }
+    @media screen and (max-width: 414px) {
+      .p-contact__list {
+        padding: 0;
+        margin-bottom: 10px; } }
     .p-contact__list label {
       float: left;
       display: block;
@@ -335,6 +347,9 @@ html, body {
       position: relative;
       top: 2px;
       box-sizing: border-box; }
+      @media screen and (max-width: 414px) {
+        .p-contact__list label {
+          font-size: 12px; } }
     .p-contact__list input {
       display: inline-block;
       width: 60%;
