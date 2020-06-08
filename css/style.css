@@ -84,6 +84,10 @@ html, body {
   align-items: center;
   justify-content: center;
   height: 60px; }
+  @media screen and (max-width: 414px) {
+    .l-footer {
+      font-size: 12px;
+      height: 40px; } }
 
 .c-bar {
   width: 100%;
