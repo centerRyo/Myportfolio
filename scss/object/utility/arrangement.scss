@@ -1,7 +1,7 @@
 .u-arrangement {
   display: flex;
   justify-content: space-around;
-  @include mq() {
+  @include mq($breakpoint: md) {
     display: block;
   }
   &__sns {
