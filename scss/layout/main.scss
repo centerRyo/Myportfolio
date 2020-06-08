@@ -4,7 +4,7 @@
   margin-right: auto;
   padding-top: 80px;
   padding-bottom: 120px;
-  @include mq() {
+  @include mq($breakpoint: md) {
     width: 100%;
     padding-right: $space_l;
     padding-left: $space_l;
